@@ -1,0 +1,124 @@
+/* CSS Document for Diamond Buyers Inc.
+*  http://web.engr.oregonstate.edu/~kearnsc/Diamonds/
+*/
+@charset "utf-8";
+
+body{background-color:#E5FFFF}
+
+h1{
+	text-align:center;
+	color:#FF0000;
+}
+
+h2{
+	text-align:center;
+	color:#FF0000;
+}
+
+/* For index.php page. */
+.fieldset-width_1{
+	display:inline-block;
+	text-align: left;
+	font:Arial, Helvetica, sans-serif;
+	color:#3300FF;
+	font-size:18px;
+	width:550px;
+}
+
+/* For all other pages. */
+.fieldset-auto-width{
+	display:inline-block;
+	text-align: left;
+	font:Arial, Helvetica, sans-serif;
+	color:#3300FF;
+	font-size:18px;
+}
+
+.fieldset-inner{background-color: #EEFFFF;}
+
+.table_display td{
+	border: 1px solid blue;
+	padding: 5px;
+	
+}
+
+.bold{
+	color:#CC0000;
+	font:bold;
+	font-size:16px;
+}
+
+legend{
+	color:red;
+	font-size:18px;
+	margin:0 auto;
+}
+
+div{text-align:center;}
+
+a:link, a:visited {color:#3300FF;}
+
+a:hover{color:#FF0000;}
+
+/* For return to main page buttons on each query result page. */
+button {
+	height: 30px;
+	width:auto
+	border-radius: 5px;
+	font-size: 13px;
+	background-color: #2994FF;
+	color: yellow;
+}
+button:hover{background:#FF0000;}
+
+/* For submit buttons on index.php */
+#button {
+	height: 30px;
+	width:auto
+	border-radius: 5px;
+	font-size: 13px;
+	background-color: #2994FF;
+	color: yellow;
+}
+#button:hover{background:#FF0000;}
+
+/* AddNewCustomer.php table. */
+.ANC{
+	width:481px;
+	border: 0px;
+	cellspacing:1px;
+	cellpadding:2px;
+}
+
+/* For submit buttons on combination form/php pages. */
+#submit{
+	height: 30px;
+	width:auto
+	border-radius: 5px;
+	font-size: 13px;
+	background-color: #2994FF;
+	color: yellow;
+}
+#submit:hover{background:#FF0000;}
+
+/* Styling for error messages. */
+.success{
+	text-align:center;
+	font:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#009900;
+}
+
+/* Styleing for sucess messages. */
+.error{
+	text-align:center;
+	font:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#FF0000;
+}
+
+.overflow{
+	overflow-y:auto;
+	height:725px;
+	max-height:725px;
+}
