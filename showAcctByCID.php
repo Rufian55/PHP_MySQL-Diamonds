@@ -2,7 +2,7 @@
 //Turn on error reporting
 ini_set('display_errors', 'On');
 //Connect to the database
-$mysqli = new mysqli("oniddb.cws.oregonstate.edu", "kearnsc-db", "w1nUsqnlrqoqpUq4", "kearnsc-db");
+$mysqli = new mysqli(new mysqli("localhost", "user", "password", "database");
 ?>
 
 <!DOCTYPE HTML>
