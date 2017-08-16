@@ -2,7 +2,7 @@
 //Turn on error reporting
 ini_set('display_errors', 'On');
 //Connect to the database
-$mysqli = new mysqli(new mysqli("localhost", "user", "password", "database");
+$mysqli = new mysqli("localhost", "user", "password", "database");
 ?>
 
 <!DOCTYPE HTML>
